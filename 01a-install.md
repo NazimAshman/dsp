@@ -59,7 +59,7 @@ In the Terminal:
 
 `python3 --version`
 
-3.6.2
+3.6.6
 
  
 
