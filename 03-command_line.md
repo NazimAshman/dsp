@@ -20,27 +20,27 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-ls:  lists files and folders in a directory
-cd: change directory
-cd ..: move directory up one step
-pwd: prints working directory
-mkdir: make directory
-rmdir: deleted an empty directory
-touch: creates new file
-cp: copies files or directories
-mv: moving a file from one directory to another, can also be used to rename files
-rm: deletes files and directories (-r deletes the children too)
-Tab: autocomplete
-cat: outputs the contents of a file to the terminal
-> : replace
->> : append
-wc : outputs number of lines, words and characters in a file.
-sort : sorts standard input alphabetically
-uniq : filters out adjacent duplicant lines
-grep : global regular expression print
-sed: stream editor, similar to find and replace. Example: sed 's/snow/rain/' forests.txt . This seacrehs forest.txt for snow and replaces it with rain.
-nano : command line text editor
-alias : let's you store shortcuts
+ls:  lists files and folders in a directory.  
+cd: change directory.  
+cd ..: move directory up one step.  
+pwd: prints working directory.  
+mkdir: make directory.  
+rmdir: deleted an empty directory.  
+touch: creates new file.  
+cp: copies files or directories.  
+mv: moving a file from one directory to another, can also be used to rename files.  
+rm: deletes files and directories (-r deletes the children too).  
+Tab: autocomplete.  
+cat: outputs the contents of a file to the terminal.  
+> : replace.  
+>> : append.    
+wc : outputs number of lines, words and characters in a file.  
+sort : sorts standard input alphabetically.  
+uniq : filters out adjacent duplicant lines.  
+grep : global regular expression print.  
+sed: stream editor, similar to find and replace. Example: sed 's/snow/rain/' forests.txt . This seacrehs forest.txt for snow and replaces it with rain.  
+nano : command line text editor.  
+alias : let's you store shortcuts.  
 
 
 ---
@@ -80,7 +80,7 @@ ls -t,ls -a,ls -l,ls -R,ls -u.
 
 What does `xargs` do? Give an example of how to use it.
 
-xargs converts input from standard input into arguments to a command. Common example is used in combination with the find command. Exampl: find /tmp -mtime +14 | xargs rm. This finds files that are older than 2 weeks and deletes them.
+xargs converts input from standard input into arguments to a command. Common example is used in combination with the find command.    Example: find /tmp -mtime +14 | xargs rm. This finds files that are older than 2 weeks and deletes them.
 
  
 
