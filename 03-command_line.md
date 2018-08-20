@@ -20,7 +20,28 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls:  lists files and folders in a directory
+cd: change directory
+cd ..: move directory up one step
+pwd: prints working directory
+mkdir: make directory
+rmdir: deleted an empty directory
+touch: creates new file
+cp: copies files or directories
+mv: moving a file from one directory to another, can also be used to rename files
+rm: deletes files and directories (-r deletes the children too)
+Tab: autocomplete
+cat: outputs the contents of a file to the terminal
+> : replace
+>> : append
+wc : outputs number of lines, words and characters in a file.
+sort : sorts standard input alphabetically
+uniq : filters out adjacent duplicant lines
+grep : global regular expression print
+sed: stream editor, similar to find and replace. Example: sed 's/snow/rain/' forests.txt . This seacrehs forest.txt for snow and replaces it with rain.
+nano : command line text editor
+alias : let's you store shortcuts
+
 
 ---
 
@@ -35,7 +56,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls: lists all files and folders within a directory.
+ls -a: lists all contents, including hidden files and directories
+ls -l: lists all contents of a directory in long format
+ls -lh: long listing with Human readable file sizes
+ls -lah: long listing of all files and folders(including hidden) with Human readable file sizes
+ls -t: order files and directories by the time they were last modified
+ls -Glp: long listing with group names excluded, directories displayed with /
+
 
 ---
 
@@ -43,7 +71,8 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+ls -t,ls -a,ls -l,ls -R,ls -u.
 
 ---
 
@@ -51,7 +80,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs converts input from standard input into arguments to a command. Common example is used in combination with the find command. Exampl: find /tmp -mtime +14 | xargs rm. This finds files that are older than 2 weeks and deletes them.
 
  
 
