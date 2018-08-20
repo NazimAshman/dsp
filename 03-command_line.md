@@ -56,13 +56,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls: lists all files and folders within a directory.
-ls -a: lists all contents, including hidden files and directories
-ls -l: lists all contents of a directory in long format
-ls -lh: long listing with Human readable file sizes
-ls -lah: long listing of all files and folders(including hidden) with Human readable file sizes
-ls -t: order files and directories by the time they were last modified
-ls -Glp: long listing with group names excluded, directories displayed with /
+ls: lists all files and folders within a directory.  
+ls -a: lists all contents, including hidden files and directories.  
+ls -l: lists all contents of a directory in long format.  
+ls -lh: long listing with Human readable file sizes.  
+ls -lah: long listing of all files and folders(including hidden) with Human readable file sizes.  
+ls -t: order files and directories by the time they were last modified.  
+ls -Glp: long listing with group names excluded, directories displayed with /.  
 
 
 ---
