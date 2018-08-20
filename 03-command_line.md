@@ -31,9 +31,7 @@ cp: copies files or directories.
 mv: moving a file from one directory to another, can also be used to rename files.  
 rm: deletes files and directories (-r deletes the children too).  
 Tab: autocomplete.  
-cat: outputs the contents of a file to the terminal.  
-> : replace.  
->> : append.    
+cat: outputs the contents of a file to the terminal.      
 wc : outputs number of lines, words and characters in a file.  
 sort : sorts standard input alphabetically.  
 uniq : filters out adjacent duplicant lines.  
@@ -80,7 +78,7 @@ ls -t,ls -a,ls -l,ls -R,ls -u.
 
 What does `xargs` do? Give an example of how to use it.
 
-xargs converts input from standard input into arguments to a command. Common example is used in combination with the find command.    Example: find /tmp -mtime +14 | xargs rm. This finds files that are older than 2 weeks and deletes them.
+xargs converts input from standard input into arguments to a command. Common example is used in combination with the find command.</br>Example: find /tmp -mtime +14 | xargs rm. This finds files that are older than 2 weeks and deletes them.
 
  
 
